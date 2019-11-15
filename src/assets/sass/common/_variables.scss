@@ -1,0 +1,221 @@
+// colors from style guide
+$main-color-1: #f39235; // orange
+$main-color-2: #1f2233; // Black
+$main-color-3: #596377; // Dark Gray
+$main-color-4: #1fc281; // Green
+$main-color-5: #8c96a9; // Light Slate Gray
+$main-color-6: #f4f6fa; // Alice Blue
+$main-color-7: #b5c2db; // Light Steel Blue
+$main-color-8: #ff0e5d; // Red
+$main-color-9: #d8d8d8; // Silver
+
+$color-base-1: #f39235; // educase orange
+$color-base-2: #1f2233; //
+$color-base-3: #596377; //
+$color-base-4: #8c96a9; //gray
+$color-base-5: #b5c2db; //
+$color-base-6: #f4f6fa; //
+$color-base-7: #d8d8d8; // silver
+$color-base-8: #1fc281; // green
+$color-base-9: #ff0e5d; // Red
+// colors from detail screen
+$color-extend-0: #ffffff;
+$color-extend-1: #161824;
+$color-extend-2: #eef0f2;
+$color-extend-3: #e5e5e5;
+$color-extend-4: #ff3366;
+$color-extend-5: #fdefe1;
+$color-extend-6: #dc8633;
+$color-extend-7: #31ce8c;
+$color-extend-8: #e6e6e6;
+
+// colors for text button
+$color-button-add-circle-text: #1fc280;
+$color-button-add-standard-large-text: #ffffff;
+$color-button-search-standard-large-text: #ffffff;
+
+// color for dropdowns
+$dropdown-selected-background: #d1d5dd;
+$dropdown-shadow: rgba(0, 0, 0, 0.2);
+
+/* validation */
+$invalid-background: #fff6f6;
+$valid-background: #ffffff;
+$invalid-border: #fea5a8;
+$valid-border: #596377;
+
+/* font family */
+$font-family-general: "Meta Pro";
+$font-family-bold: "Meta Pro Bold";
+
+// base
+$center: 50%;
+$middle: $center $center;
+$full: 100%;
+
+// base size
+$size: 1rem;
+
+// font size
+$font-size-small: 12px;
+$font-size-regular: 14px;
+$font-size-subtitle: 16px;
+$font-size-large: 22px;
+$font-size-x-large: 32px;
+$font-size-xs-large: 48px;
+$font-size-button-standard-large: 18px;
+
+// font weight
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-normal: normal;
+$font-weight-bold: bold;
+
+// line height
+$line-height-regular: 21px;
+$line-height-large: 24px;
+$line-height-18: 18px;
+$line-height-14: 14px;
+$line-height-button-standard-large: 58px;
+
+// height
+$height-button-standard-large: 58px;
+
+// letter spacing
+$letter-spacing-2: 0.2px;
+$letter-spacing-3: 0.3px;
+
+// media queries
+$tablet-width: 768px;
+$desktop-width: 1024px;
+
+// screen size
+$screen-width-1920: 1921px;
+$screen-width-1780: 1780px;
+$screen-width-1680: 1680px;
+$screen-width-1440: 1440px;
+$screen-width-1280: 1280px;
+$screen-width-1024: 1024px;
+$screen-width-1279: 1279px;
+
+$left-menu-width: 220px;
+$left-menu-width-collapse: 68px;
+$left-menu-sub-width: 250px;
+$content-width: 1440px;
+
+// margin size
+$margin-30: 30px;
+$margin-container: 2 * $size;
+
+// header
+$header-title-dropdown-radius: 2px;
+$header-title-button-size: 20px;
+$header-title-icon-font-size: 28px;
+$header-title-icon-font-weight: 500;
+$header-title-content-padding: 24px 50px 22px 17px;
+$header-title-content-plain-left: 12px;
+$header-title-content-box-shadow: 0 0 15px 0 $dropdown-shadow;
+$header-title-content-radius: $header-title-dropdown-radius
+  $header-title-dropdown-radius 0 0;
+$header-title-back-icon-right: 10px;
+$header-title-back-width: 50px;
+$header-title-line-height: 80px;
+$header-title-toggler-top: 18px;
+$header-title-toggler-right: 16px;
+$header-title-dropdown-border: solid 1px $main-color-7;
+$header-title-dropdown-body-top: -4px;
+$header-title-dropdown-body-radius: 0 0 $header-title-dropdown-radius
+  $header-title-dropdown-radius;
+$header-title-dropdown-item-padding: 15px;
+$header-title-dropdown-box-shadow: 0 6px 11px 0 $dropdown-shadow;
+
+// the relative path to the fonts directory
+$font-bold-path: "./fonts/Meta Pro-bold" !default;
+$font-general-path: "./fonts/Meta Pro-normal" !default;
+
+$list_item_set_cursor_default: (
+  (
+    ".cursor__default",
+    ".cursor__default_all",
+    ".cursor__default_all *",
+    ".cursor__default .webix_cell",
+    ".webix_window .box-content",
+    ".title",
+    ".title-section",
+    ".chart-content__text",
+    ".header-title__content",
+    ".text-font_bold",
+    ".relationship__text",
+    ".webix_popup_title",
+    ".result__score_text",
+    ".button__icon.disable"
+  )
+);
+
+$list_item_set_cursor_pointer: (
+    ".cursor__pointer",
+    ".cursor__pointer_all",
+    ".cursor__pointer_all *",
+    ".timeline__item *",
+    ".upload-document__uploader",
+    ".header-logout__content",
+    ".relationship-type__icon",
+    ".header-search__input:hover"
+  ),
+  (
+    ".button__container",
+    ".button__container *",
+    ".show-advance",
+    ".icon_container",
+    ".icon_size_16",
+    ".button__icon",
+    ".dashboard__search-icon",
+    ".box__title_search-button",
+    ".test_icon",
+    ".search-basic__button input",
+    ".button-relationship-add"
+  ),
+  (
+    ".context-menu-icon",
+    ".icon-arrow-down",
+    ".icon-arrow-up",
+    ".icon-phone-enable",
+    ".icon-phone-disable",
+    ".icon-mail-enable",
+    ".icon-mail-disable",
+    ".icon-star-enable",
+    ".icon-star-disable",
+    ".icon-web-disable",
+    ".icon-web-enable"
+  ),
+  (
+    ".menu-left__nav-item",
+    ".menu-left__nav-item .menu-left__icon",
+    ".menu-left__nav-item .menu-left__text",
+    ".header-title__icon"
+  ),
+  (
+    ".webix_inp_counter_next",
+    ".webix_inp_counter_prev",
+    ".webix_input_icon",
+    ".webix_custom_radio",
+    ".webix_el_group label",
+    ".webix_cell",
+    ".browser-file"
+  ),
+  (
+    ".webix_custom_checkbox",
+    ".fa-check-square",
+    ".fa-square-o",
+    ".upload-document__text-suffix",
+    ".icons_size_m paperclip-icon",
+    ".section__item",
+    ".box-point__item",
+    ".flat-list__item",
+    ".left-right-list__item"
+  ),
+  (".header-login", ".header_icon");
+
+$list_item_set_cursor_text: (
+  (".row textarea", ".row input", ".header-search .header-search__input:focus")
+);
